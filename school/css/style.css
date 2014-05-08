@@ -1,0 +1,231 @@
+body {
+	font-family: AvenirNextLTPro-Heavy;
+	font-weight: normal;
+	font-style: normal;
+	/* font-family: Helvetica, Arial, sans-serif; */
+	/* font-family: 'Open Sans', sans-serif; */
+}
+
+
+.headline h4 {
+	color: #3B2314;
+	font-size: 59px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+.headline h5 {
+	color: #3B2314;
+	font-weight: 300;
+	font-size: 36px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+div.fb_logo {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+	.fb_logo p {
+		padding: 10px 10px 0 0;
+	}
+	.fb_logo img {
+		width: 40px;
+	}
+
+
+.logo {
+	position: relative;
+	margin: -576px 0 -100px -80px;
+	z-index: 20;
+}
+
+.main_content {
+	width: 100%;
+	height: auto;
+	margin-bottom: -57px;
+	margin-top: -250px;
+}
+
+.content {
+	margin-top: -250px;
+}
+.content h1 {
+	line-height: 34px;
+	font-size: 28px;
+	letter-spacing: 2.5px;
+	margin: 0;
+	padding: 0;
+	color: #3B2314;
+	padding: 10px 0px 5px 0px;
+	text-transform: uppercase;
+}
+.content h2 {
+	line-height: 34px;
+	font-size: 29px;
+	letter-spacing: 1.5px;
+	margin: 0;
+	padding: 0;
+	color: #3B2314;
+	text-align: center;
+	padding: 10px 0px 5px 0px;
+	text-transform: uppercase;
+}
+.content h3 {
+	color: #3B2314;
+	font-size: 20px;
+	line-height: 34px;
+	margin: 0;
+	padding: 10px 0 5px 0;
+	letter-spacing: 1.5px;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+.content h4 {
+	font-size: 20px;
+	color: #3B2314;
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 10px 0px 5px 0px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	border-top: 1px solid #3B2314;
+	border-bottom: 1px solid #3B2314;
+}
+.centered {
+}
+.centered p{
+	margin: 0 auto;
+	text-align: center;
+}
+.center {
+	text-align: center;
+	border-right: 1px solid #633E28;
+	border-left: 1px solid #633E28;
+}
+.bg {
+	background: #fff;
+}
+.bg1 {
+background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 28%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(28%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 28%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 28%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 28%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 28%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.light {
+	font-weight: 200;
+}
+.border {
+	border-bottom: 1px solid #633E28; 
+}
+.border1 {
+	border-bottom: 1px solid #633E28;
+	border-right: 1px solid #633E28; 
+}
+.border2 {
+	border-right: 1px solid #633E28; 
+	border-left: 1px solid #633E28; 
+}
+.float {
+	float:left;
+}
+
+
+
+.food {
+	width: 38%;
+	text-align: right;
+	padding-right: 50px !important;
+	border-left: 1px solid #633E28;
+}
+.drink {
+	width: 20%;
+	text-align: center;
+}
+.design {
+	width: 42%;
+	text-align: left;
+	border-right: none;
+	padding-left: 50px !important;
+	border-right: 1px solid #633E28;
+}
+.hamilton {
+	width: 58%;
+	text-align: right;
+	border-right: 1px solid #633E28;
+	border-left: 1px solid #633E28;
+	padding-right: 50px !important;
+	border-bottom: 1px solid #633E28;
+}
+.date {
+	width: 42%;
+	text-align: left;
+	padding-left: 60px !important;
+	border-right: 1px solid #633E28;
+	border-bottom: 1px solid #633E28;
+}
+
+
+.pt10 {
+	padding-top: 10px !important;
+}
+
+
+/* Typography from MyFonts.com */
+
+.AvenirNextLTPro-Heavy { 
+	font-family: AvenirNextLTPro-Heavy;
+	font-weight: normal;
+	font-style: normal;
+}
+.AvenirNextLTPro-UltLt { 
+	font-family: AvenirNextLTPro-UltLt;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.mslogo {
+	float: right;	
+}
+	.mslogo p {
+		line-height: 30px;
+		float: right;
+		font-size: 18px;
+	}
+	.mslogo p span {
+		float: left;
+	}
+	.mslogo img{
+		float: right;
+		margin: 5px 0 20px 0;
+		width: 150px;
+	}
+	
+div.newsletter {
+	margin: 5px 0 0 0;
+}
+	.newsletter label {
+		padding: 5px 0 0 0;
+		font-size: 16px;
+	}
+	.newsletter input {
+		border: 1px solid #633E28;
+		font-size: 10px;
+		padding: 5px;
+	}
+	
+	.newsletter input[type="submit"] {
+		background: #633E28;
+		color: #ffffff;
+	}
