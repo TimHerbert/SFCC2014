@@ -6,11 +6,11 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://www.sfccdesign.com/img/annie/bright_futures.jpg',
-  'img2' : 'http://www.sfccdesign.com/img/annie/FriendFinderApp_web.jpg',
-  'img3' : 'http://www.sfccdesign.com/img/annie/jabberwock_web.jpg',
-  'img4' : 'http://www.sfccdesign.com/img/annie/SpIFFlandingpage_web.jpg',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
+  'img2' : 'http://lorempixel.com/g/480/480',
+  'img3' : 'http://lorempixel.com/g/480/480',
+  'img4' : 'http://lorempixel.com/g/480/480',
 },
 {
   'id' : '1', 
@@ -19,8 +19,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -32,8 +32,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -45,8 +45,8 @@ var json = [
     'email' : 'timothyherbert@hotmail.com',
     'profile' : 'http://lorempixel.com/g/480/480',
     'link' : 'http://garybaileydesign.com/',
-    'img' : 'http://lorempixel.com/g/480/480',
-    'img1' : 'http://lorempixel.com/g/480/480',
+    'img' : 'http://garybaileydesign.com/test_2/first.png',
+    'img1' : 'http://garybaileydesign.com/test_2/second.png',
     'img2' : 'http://lorempixel.com/g/480/480',
     'img3' : 'http://lorempixel.com/g/480/480',
     'img4' : 'http://lorempixel.com/g/480/480',
@@ -58,8 +58,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.jesset.net',
-  'img' : 'http://jesset.net/hosted/2.jpg',
-  'img1' : 'http://jesset.net/hosted/1.jpg',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://jesset.net/hosted/3.jpg',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -71,8 +71,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -84,8 +84,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -97,8 +97,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -110,8 +110,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://www.sfccdesign.com/img/liorah/cerealbox-snip.jpg',
-  'img1' : 'http://www.sfccdesign.com/img/liorah/cow-snip.jpg',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://www.sfccdesign.com/img/liorah/flying-snip.png',
   'img3' : 'http://www.sfccdesign.com/img/liorah/kind-leaves-snip.png',
   'img4' : 'http://www.sfccdesign.com/img/liorah/project-hope-logo-bw.jpg',
@@ -123,8 +123,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -136,8 +136,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://michaelstanich.net/',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -149,8 +149,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -162,8 +162,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -175,8 +175,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -188,8 +188,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -201,8 +201,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -214,8 +214,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -227,8 +227,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',  
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -240,8 +240,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -253,8 +253,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -266,8 +266,8 @@ var json = [
   'email' : 'timothyherbert@hotmail.com',
   'profile' : 'http://lorempixel.com/g/480/480',
   'link' : 'http://www.sfccdesign.com',
-  'img' : 'http://lorempixel.com/g/480/480',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
   'img4' : 'http://lorempixel.com/g/480/480',
@@ -277,14 +277,13 @@ var json = [
   'name' : 'Tim Herbert',
   'category' : 'developer',
   'email' : 'timothyherbert@hotmail.com',
-  'title' : 'http://lorempixel.com/g/480/480',
   'profile' : 'http://timherbert.net/hosted/profile.jpg',
   'link' : "http://timherbert.net/",
-  'img' : 'http://timherbert.net/hosted/1.png',
-  'img1' : 'http://lorempixel.com/g/480/480',
+  'img' : 'http://garybaileydesign.com/test_2/first.png',
+  'img1' : 'http://garybaileydesign.com/test_2/second.png',
   'img2' : 'http://lorempixel.com/g/480/480',
   'img3' : 'http://lorempixel.com/g/480/480',
-  'img4' : 'http://lorempixel.com/g/480/480',  
+  'img4' : 'http://lorempixel.com/g/480/480',
 },
             
 ]; // End json object
@@ -305,9 +304,9 @@ while( copy.length ) {
     var keyword = copy.splice( Math.floor(Math.random()*copy.length), 1 );
     //document.write(keyword[0].id + '<br>');
     output = '<div data-id="'+keyword[0].id+'" class="cardWrapper '+keyword[0].category+'" data-category="">';
-    output += '<img src="'+keyword[0].img+'" class="third '+'" alt="image">'; 
-    output += '<img src="http://garybaileydesign.com/test_2/second.png" class="second '+'" alt="image">'; 
-    output += '<img src="http://garybaileydesign.com/test_2/first.png" class="first '+'" alt="image">'; 
+    output += '<img src="'+keyword[0].profile+'" class="third '+'" alt="image">'; 
+    output += '<img src="'+keyword[0].img1+'" class="second '+'" alt="image">'; 
+    output += '<img src="'+keyword[0].img+'" class="first '+'" alt="image">'; 
     output += '</div>';
     output += '<div id="'+ keyword[0].id +'" class="info-mod info-mod-' + keyword[0].id + '">';
     output += '</div>';
@@ -344,15 +343,15 @@ $('.cardWrapper').click(function(e){
     output += '</div>'; // end col-sm-3
     
     output += '<div class="info-mod-col">';  
-    output += '<img class="profile"  src="'+json[index].img1+'" alt="SFCC Grad Show 2014">';
+    output += '<img class="profile"  src="'+json[index].img2+'" alt="SFCC Grad Show 2014">';
     output += '</div>';
 
     output += '<div class="info-mod-col">';
-    output += '<img class="profile1"  src="'+json[index].img2+'" alt="SFCC Grad Show 2014">';
+    output += '<img class="profile1"  src="'+json[index].img3+'" alt="SFCC Grad Show 2014">';
     output += '</div>'; // end col-sm-3
  
     output += '<div class="info-mod-col">';
-    output += '<img class="profile1"  src="'+json[index].img3+'" alt="SFCC Grad Show 2014">';
+    output += '<img class="profile1"  src="'+json[index].img4+'" alt="SFCC Grad Show 2014">';
     output += '</div>'; // end col-sm-3
    
     output += '</div>'; // end fluid-container
@@ -428,15 +427,15 @@ $('.remote a').click(function(e){
     output += '</div>'; // end col-sm-3
     
     output += '<div class="col-sm-3">';  
-    output += '<img class="profile"  src="'+json[index].img1+'" alt="SFCC Grad Show 2014">';
+    output += '<img src="'+json[index].img2+'" alt="SFCC Grad Show 2014">';
     output += '</div>';
 
     output += '<div class="col-sm-3">';
-    output += '<img class="profile1"  src="'+json[index].img2+'" alt="SFCC Grad Show 2014">';
+    output += '<img src="'+json[index].img3+'" alt="SFCC Grad Show 2014">';
     output += '</div>'; // end col-sm-3
 
     output += '<div class="col-sm-3">';
-    output += '<img class="profile1"  src="'+json[index].img3+'" alt="SFCC Grad Show 2014">';
+    output += '<img src="'+json[index].img4+'" alt="SFCC Grad Show 2014">';
     output += '</div>'; // end col-sm-3
    
     output += '</div>'; // end fluid-container
@@ -454,9 +453,6 @@ $('.remote a').click(function(e){
        $(window).scrollTop($(filter).offset().top);
     }, 10);
     
-    
-    //console.log(filter);
-    //console.log(remote_trigger);
     $('.cardWrapper').not(filter).css('opacity', '0.4');
     
     
