@@ -298,10 +298,6 @@ var click_toggle = 0;
 var data_click = 0;
 $(window).load(function(){ 
 
-
-
-
-
 var copy = json.slice();
 
 while( copy.length ) {
@@ -317,7 +313,7 @@ while( copy.length ) {
 $('#gallery').append(output);
 
            
-}
+} // end while
 
 //
 $(document).click(function(){
@@ -379,7 +375,16 @@ $('.cardWrapper').click(function(e){
 
     $('.cardWrapper, .container').not(this).css('opacity', '0.1');
 
-    $(window).scrollTop($(this).offset().top );
+//setTimeout(function(){}, 3000);
+        var element = parseInt($(this).attr('data-id'));
+        var wHeight = $(window).height();
+        var eOffset = $('#' + element).offset().top;
+        var eHeight = $(this).innerHeight();
+console.log(eHeight);
+        $('html, body').animate({
+            scrollTop: (eOffset - wHeight + eHeight)
+        }, 2000);
+//    $(window).scrollTop($(this).offset().top + $(window).innerHeight );
   }
 
 
@@ -456,7 +461,7 @@ $('.remote a').click(function(e){
        $(window).scrollTop($(filter).offset().top);
     }, 10);
     
-    $('.cardWrapper').not(filter).css('opacity', '0.4');
+    $('.cardWrapper').not(filter).css('opacity', '0.2');
     
   }
 });
