@@ -298,6 +298,10 @@ var click_toggle = 0;
 var data_click = 0;
 $(window).load(function(){ 
 
+
+
+
+
 var copy = json.slice();
 
 while( copy.length ) {
@@ -317,13 +321,13 @@ $('#gallery').append(output);
 
 //
 $(document).click(function(){
+  //alert('hi')
   $('.info-mod').slideUp(200);
-  click_toggle = 0;
-   $('.cardWrapper, .container').css('opacity', '1'); TweenLite.to($('.cardWrapper').find(".card"), 1.2, {rotationY:0});
-  $('body').css('cursor', 'default');
-  $('.cardWrapper, .front, .back').css('cursor', 'pointer');
+  $('body, .cardWrapper, .front, .back').css('cursor', 'pointer');
+  $('.cardWrapper, .container').css('opacity', '1');
   $('.info-mod').empty();
   data_click = 0;
+  click_toggle = 0;
 });
 
 $('.cardWrapper').click(function(e){  
@@ -358,7 +362,12 @@ $('.cardWrapper').click(function(e){
     
     $(output).appendTo('.info-mod-'+index);
     $(".info-mod-"+index).slideDown(300);
-    TweenLite.to($(this).find(".card"), 0.7, {rotationY:180});
+    
+    
+    var filter = $(this).find('.first');
+    var filter1 = $(this).find('.second');
+    $(filter).addClass('first-hover');
+    $(filter1).addClass('second-hover');
 
     $('body, .cardWrapper, .front, .back').css('cursor', 'url(img/x-cursor.png), auto');
 
@@ -369,42 +378,34 @@ $('.cardWrapper').click(function(e){
 
 
     });
-  
-
 
 var timeoutId;
-
+var data_click = 1;
 if(data_click == '0') {
-$(".cardWrapper").hover(function() {
-  var index = $(this);
-  //console.log(data_click+' data click');
-  if (!timeoutId && data_click == 0) {
-            timeoutId = window.setTimeout(function() {
-                timeoutId = null;
-                TweenLite.to($(index).find(".card"), 1, {rotationY:180});
-              //alert('hi');
-           }, 400);
-        }
+  $(".cardWrapper").hover(function() {
+
+    var filter = $(this).find('.first');
+    var filter1 = $(this).find('.second');
+    $(filter).addClass('first-hover');
+    $(filter1).addClass('second-hover');
     },
     function () {
-        if (timeoutId) {
-            window.clearTimeout(timeoutId);
-            timeoutId = null;
-        }
-        else if (data_click == 0) {
-           TweenLite.to($(this).find(".card"), 0.7, {rotationY:0}); 
-        } else {
+      var filter = $(this).find('.first');
+      var filter1 = $(this).find('.second');
+      $(filter).removeClass('first-hover');
+      $(filter1).removeClass('second-hover');
           
-        }
-    });
+         if (data_click == 0) {
+             //TweenLite.to($(this).find(".card"), 0.7, {rotationY:0});
+              var filter = $(this).find('.first');
+              var filter1 = $(this).find('.second');
+              $(filter).removeClass('first-hover');
+              $(filter1).removeClass('second-hover'); 
+          } else {
+            
+          }
+  });
 }
-
-TweenLite.set(".cardWrapper", {perspective:800});
-TweenLite.set(".card", {transformStyle:"preserve-3d"});
-TweenLite.set(".back", {rotationY:-180});
-TweenLite.set([".back", ".front"], {backfaceVisibility:"hidden"});
-
-
 
 
 //Remote not working yet
@@ -454,7 +455,6 @@ $('.remote a').click(function(e){
     }, 10);
     
     $('.cardWrapper').not(filter).css('opacity', '0.4');
-    
     
   }
 });

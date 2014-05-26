@@ -202,13 +202,23 @@ table, td {
   padding-top: 25%;
   margin: -2px;
 }
-.cardWrapper:hover > .first {
+
+/*Commented out and created other classes for jQuery script to work*/
+/*.cardWrapper:hover > .first {
   left: -100%;
   top: -100%;
 }
 .cardWrapper:hover > .second {
   left: 100%;
   top: 100%;
+}*/
+.first-hover {
+  left: -100% !important;
+  top: -100% !important;
+}
+.second-hover {
+  left: 100% !important;
+  top: 100% !important;
 }
 .first {
   position: absolute;
@@ -217,7 +227,7 @@ table, td {
   width: 100%;
   height: 100%;
 
-  transition: left 0.5s 0.5s, top 0.5s 0.5s;
+  transition: left 0.1s 0.1s, top 0.5s 0.5s;
 }
 .second {
   position: absolute;
@@ -226,7 +236,7 @@ table, td {
   width: 100%;
   height: 100%;
 
-  transition: left 0.5s 0.5s, top 0.5s 0.5s;
+  transition: left 0.1s 0.1s, top 0.5s 0.5s;
 }
 .third {
   position: absolute;
