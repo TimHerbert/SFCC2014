@@ -323,9 +323,15 @@ $('#gallery').append(output);
 $(document).click(function(){
   //alert('hi')
   $('.info-mod').slideUp(200);
+  var filter = $(this).find('.first');
+  var filter1 = $(this).find('.second');
+  $(filter).removeClass('first-hover');
+  $(filter1).removeClass('second-hover');
+  
   $('body, .cardWrapper, .front, .back').css('cursor', 'pointer');
   $('.cardWrapper, .container').css('opacity', '1');
   $('.info-mod').empty();
+
   data_click = 0;
   click_toggle = 0;
 });
