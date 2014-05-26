@@ -362,7 +362,7 @@ $('.cardWrapper').click(function(e){
 
 
 
-    $(".info-mod-"+index).slideDown(600);
+    $(".info-mod-"+index).slideDown(300);
 
 var filter = $(this).find('.first');
 var filter1 = $(this).find('.second');
@@ -374,7 +374,9 @@ $(filter1).addClass('clicked');
 
     $('body, .cardWrapper, .front, .back').css('cursor', 'url(img/x-cursor.png), auto');
     $('.cardWrapper, .container').not(this).css('opacity', '0.1');
-    $('html,body').animate({
+    
+
+    $('html,body').delay(10).animate({
       scrollTop: $(this).offset().top 
     }, 200);
     return false;
