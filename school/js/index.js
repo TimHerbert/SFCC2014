@@ -327,7 +327,7 @@ $(document).click(function(){
   var filter1 = $(this).find('.second');
   $(filter).removeClass('first-hover');
   $(filter1).removeClass('second-hover');
-  
+
   $('body, .cardWrapper, .front, .back').css('cursor', 'pointer');
   $('.cardWrapper, .container').css('opacity', '1');
   $('.info-mod').empty();
@@ -386,7 +386,7 @@ $('.cardWrapper').click(function(e){
     });
 
 var timeoutId;
-var data_click = 1;
+//var data_click = 1;
 if(data_click == '0') {
   $(".cardWrapper").hover(function() {
 
@@ -396,11 +396,7 @@ if(data_click == '0') {
     $(filter1).addClass('second-hover');
     },
     function () {
-      var filter = $(this).find('.first');
-      var filter1 = $(this).find('.second');
-      $(filter).removeClass('first-hover');
-      $(filter1).removeClass('second-hover');
-          
+
          if (data_click == 0) {
              //TweenLite.to($(this).find(".card"), 0.7, {rotationY:0});
               var filter = $(this).find('.first');
@@ -408,7 +404,7 @@ if(data_click == '0') {
               $(filter).removeClass('first-hover');
               $(filter1).removeClass('second-hover'); 
           } else {
-            
+            //alert('working');
           }
   });
 }
