@@ -323,7 +323,9 @@ $(document).click(function(){
   $('body').css('cursor', 'default');
   $('.cardWrapper, .front, .back').css('cursor', 'pointer');
   $('.info-mod').empty();
+  $('.clicked').slideDown(100);
   data_click = 0;
+
 });
 
 $('.cardWrapper').click(function(e){  
@@ -362,6 +364,12 @@ $('.cardWrapper').click(function(e){
 
     $(".info-mod-"+index).slideDown(600);
 
+var filter = $(this).find('.first');
+var filter1 = $(this).find('.second');
+$(filter).slideUp(100);
+$(filter1).slideUp(100);
+$(filter).addClass('clicked');
+$(filter1).addClass('clicked');
 
 
     $('body, .cardWrapper, .front, .back').css('cursor', 'url(img/x-cursor.png), auto');
