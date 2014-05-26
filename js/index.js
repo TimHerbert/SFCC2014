@@ -287,16 +287,19 @@ var json = [
 },
             
 ]; // End json object
-/*
-Attempt at global from local function
-*/
+
           
 /********************************************
               Gallery Functions
 *********************************************/            
 var click_toggle = 0;
-var data_click = 0;
+
 $(window).load(function(){ 
+
+
+// Init for Sidr Plugin
+$('#simple-menu').sidr();
+$('.remote').sidr();
 
 var copy = json.slice();
 
@@ -324,7 +327,6 @@ $(document).click(function(){
   $('.cardWrapper, .front, .back').css('cursor', 'pointer');
   $('.info-mod').empty();
   $('.clicked').slideDown(100);
-  data_click = 0;
 
 });
 
@@ -333,7 +335,6 @@ $('.cardWrapper').click(function(e){
       //console.log(click_toggle);
     e.stopPropagation();
     click_toggle = 1;
-    data_click = 1;
     var index = $(this).attr('data-id');
   
     output = '<div class="fluid-container">';
@@ -364,12 +365,12 @@ $('.cardWrapper').click(function(e){
 
     $(".info-mod-"+index).slideDown(300);
 
-var filter = $(this).find('.first');
-var filter1 = $(this).find('.second');
-$(filter).slideUp(100);
-$(filter1).slideUp(100);
-$(filter).addClass('clicked');
-$(filter1).addClass('clicked');
+    var filter = $(this).find('.first');
+    var filter1 = $(this).find('.second');
+    $(filter).slideUp(100);
+    $(filter1).slideUp(100);
+    $(filter).addClass('clicked');
+    $(filter1).addClass('clicked');
 
 
     $('body, .cardWrapper, .front, .back').css('cursor', 'url(img/x-cursor.png), auto');
@@ -385,4 +386,81 @@ $(filter1).addClass('clicked');
 
     });
 
+
+    $('a.remote').click(function(e){  
+      if (click_toggle === 0 ){    
+          //console.log(click_toggle);
+        e.stopPropagation();
+        click_toggle = 1;
+        data_click = 1;
+        var index = parseInt($(this).attr('data-id'));
+        //var filter_var = $().attr('class')
+        //var filter = $('cardWrapper').filter().attr('data-id', index);
+        
+        output = '<div class="fluid-container">';
+        
+        output += '<div class="info-mod-col info-contact">';
+        output += '<h4>'+json[index].name+'</h4>';
+        output += '<p><a href="'+json[index].link+'" target="_blank">'+json[index].link+'</a></p>';
+        output += '<p><a href="mailto:"'+json[index].email+'">'+json[index].email+'</a></p>';
+        output += '</div>';
+        
+        output += '<div class="info-mod-col">';  
+        output += '<img class="profile"  src="'+json[index].img2+'" alt="SFCC Grad Show 2014">';
+        output += '</div>';
+
+        output += '<div class="info-mod-col">';
+        output += '<img class="profile1"  src="'+json[index].img3+'" alt="SFCC Grad Show 2014">';
+        output += '</div>';
+     
+        output += '<div class="info-mod-col">';
+        output += '<img class="profile1"  src="'+json[index].img4+'" alt="SFCC Grad Show 2014">';
+        output += '</div>';
+       
+        output += '</div>'; // end fluid-container
+        
+        var filter = $('.cardWrapper').filter(function(){
+          return $(this).attr('data-id').match(index);
+        });
+        //console.log(filter);
+        //var remote_trigger = $('.cardWrapper').find('data-id', index);
+        $(output).appendTo('.info-mod-'+index); 
+        $(".info-mod-"+index).slideDown(300);
+        //TweenLite.to($(filter).find(".card"), 1.2, {rotationY:180});
+        $('body').css('cursor', 'crosshair');
+        $('.cardWrapper').css('cursor', 'crosshair');
+        
+        var filter_var = $(filter).find('.first');
+        var filter_var1 = $(filter).find('.second');
+        $(filter_var).slideUp(100);
+        $(filter_var1).slideUp(100);
+        $(filter_var).addClass('clicked');
+        $(filter_var1).addClass('clicked');
+        
+        $('html,body').delay(10).animate({
+            scrollTop: $(filter).offset().top 
+          }, 200);
+
+        $('.cardWrapper').not(filter).css('opacity', '0.1');
+        
+        
+      }
+    });
+
+
 }); // end of load function
+
+
+
+
+// Loop populating student section
+for(var i = 0; i < json.length; i++) {
+    output1 = '<li>';
+    //output1 += '<a href="'json[i].id'">';
+    output1 += '<a class="remote" href="#'+json[i].id+'" data-id="'+json[i].id+'">';
+    output1 += json[i].name;
+    output1 += '</a>';
+    output1 += '</li>';
+
+    $('#students').append(output1);
+}
