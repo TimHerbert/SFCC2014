@@ -20,16 +20,44 @@ a.inherit-link, a.inherit-link:hover {
   color: inherit !important;
 }
 
-/* Content */
-div.fb_logo {
+/* Menu */
+.menu-btn {
+  position: relative;
+  height: 51px;
+  width: 51px;
+  background: #3B2314;
+  display: block;
   position: absolute;
-  top: 0px;
-  right: 50px;
+  right: 0;
+  top: 0;
 }
-div.yt_logo {
+.menu-btn img {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  left: 6px;
+  top: 6px;
+}
+.sidr ul li {
+  border-top: none;
+  border-bottom: none;
+}
+.sidr ul li>a {
+  border-bottom: 2px solid #3B2314;
+}
+.sidr {
+  box-shadow: none;
+  color: inherit;
+}
+.sidr ul li:hover, .sidr ul li.active, .sidr ul li.sidr-class-active {
+  line-height: 48px;
+}
+.sidr ul li:hover>a, .sidr ul li:hover>span, .sidr ul li.active>a, .sidr ul li.active>span, .sidr ul li.sidr-class-active>a, .sidr ul li.sidr-class-active>span {
+  box-shadow: none;
+}
+
+/* Content */
+div.fb_logo, div.yt_logo {
+  float: left;
+  margin-right: 0.5em;
 }
 .fb_logo img, .yt_logo img {
   width: 40px;

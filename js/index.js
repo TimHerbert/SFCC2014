@@ -298,8 +298,14 @@ $(window).load(function(){
 
 
 // Init for Sidr Plugin
-$('#simple-menu').sidr();
-$('.remote').sidr();
+$('#right-menu').sidr({
+  name: 'sidr-right',
+  side: 'right'
+});
+$('#remote').sidr({
+  name: 'sidr-right',
+  side: 'right'
+});
 
 var copy = json.slice();
 
