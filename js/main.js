@@ -302,7 +302,7 @@ $('#right-menu').sidr({
   name: 'sidr-right',
   side: 'right'
 });
-$('#remote').sidr({
+$('.remote').sidr({
   name: 'sidr-right',
   side: 'right'
 });
@@ -311,7 +311,6 @@ var copy = json.slice();
 
 while( copy.length ) {
     var keyword = copy.splice( Math.floor(Math.random()*copy.length), 1 );
-    //document.write(keyword[0].id + '<br>');
     output = '<div data-id="'+keyword[0].id+'" class="cardWrapper '+keyword[0].category+'" data-category="">';
     output += '<img src="'+keyword[0].profile+'" class="third '+'" alt="image">'; 
     output += '<img src="'+keyword[0].img1+'" class="second '+'" alt="image">'; 
@@ -338,7 +337,7 @@ $(document).click(function(){
 
 $('.cardWrapper').click(function(e){  
   if (click_toggle === 0 ){    
-      //console.log(click_toggle);
+
     e.stopPropagation();
     click_toggle = 1;
     var index = $(this).attr('data-id');
@@ -395,13 +394,11 @@ $('.cardWrapper').click(function(e){
 
     $('a.remote').click(function(e){  
       if (click_toggle === 0 ){    
-          //console.log(click_toggle);
+
         e.stopPropagation();
         click_toggle = 1;
         data_click = 1;
-        var index = parseInt($(this).attr('data-id'));
-        //var filter_var = $().attr('class')
-        //var filter = $('cardWrapper').filter().attr('data-id', index);
+        var index = $(this).attr('data-id');
         
         output = '<div class="fluid-container">';
         
@@ -426,13 +423,14 @@ $('.cardWrapper').click(function(e){
         output += '</div>'; // end fluid-container
         
         var filter = $('.cardWrapper').filter(function(){
-          return $(this).attr('data-id').match(index);
+          
+          var test = $(this).attr('data-id').match(index);
+          console.log(test);
+          return $(this).attr('data-id').match('^'+index+'$');
         });
-        //console.log(filter);
-        //var remote_trigger = $('.cardWrapper').find('data-id', index);
+
         $(output).appendTo('.info-mod-'+index); 
         $(".info-mod-"+index).slideDown(300);
-        //TweenLite.to($(filter).find(".card"), 1.2, {rotationY:180});
         $('body').css('cursor', 'crosshair');
         $('.cardWrapper').css('cursor', 'crosshair');
         
@@ -462,7 +460,6 @@ $('.cardWrapper').click(function(e){
 // Loop populating student section
 for(var i = 0; i < json.length; i++) {
     output1 = '<li>';
-    //output1 += '<a href="'json[i].id'">';
     output1 += '<a class="remote" href="#'+json[i].id+'" data-id="'+json[i].id+'">';
     output1 += json[i].name;
     output1 += '</a>';
